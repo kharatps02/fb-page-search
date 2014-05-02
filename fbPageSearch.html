@@ -1,0 +1,29 @@
+ 
+<!DOCTYPE html">
+<html>
+  <head>
+	<title>Welcome ....</title>
+	<script src="fbSearch.js" "></script>
+	
+	<script type="text/javascript">
+	var config ={};
+		window.onload = function(){
+	 		 console.log('page Loaded Successfully !');
+	 		  config={
+      				client_id    :'a2b95664e77dcc19b073884c8e25c564',
+      				client_secret:'1493907950828602',
+      		};
+		}
+ 	</script>
+</head>
+<body > 
+	<div >
+	 <h3>Search FaceBook pageFeeds </h3>
+	 <input type='text' id ='fbSearchBoxId' name ='searchBox' "  >
+	<button type="button" onclick="pageFeedsReq();" > <b>Search</b>
+	</button>
+	</div>
+<div id="pageResultsId">
+</div>
+</body>
+</html>
